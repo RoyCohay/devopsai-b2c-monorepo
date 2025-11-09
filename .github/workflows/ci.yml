@@ -122,6 +122,7 @@ jobs:
           if ! git diff --quiet -- "${VALUES_FILE}"; then
             git add "${VALUES_FILE}"
             git commit -m "Update $(basename "${VALUES_FILE}") to ${SHORT_SHA::7} (dev) [skip ci]"
+            git pull --rebase origin master
             git push origin HEAD:master
           else
             echo "No changes to commit."

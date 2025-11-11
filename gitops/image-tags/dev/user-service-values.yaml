@@ -6,7 +6,6 @@ env:
     value: "dev-secret-user"
   - name: APP_ENV
     value: "dev"
-
 service:
   type: NodePort
   port: 80

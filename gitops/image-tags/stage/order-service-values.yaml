@@ -6,7 +6,6 @@ env:
     value: "stage-secret-order"
   - name: APP_ENV
     value: "stage"
-
 service:
   type: NodePort
   port: 80

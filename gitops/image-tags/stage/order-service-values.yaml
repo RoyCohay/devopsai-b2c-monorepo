@@ -1,5 +1,5 @@
 image:
-  repository: ghcr.io/OWNER/order-service
+  repository: ghcr.io/baruchihalamish20/order-service
   tag: "8f80ed2"
 env:
   - name: SECRET_KEY
